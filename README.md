@@ -1,4 +1,6 @@
-# 📘 Pokédex – Vanilla JavaScript
+# Pokédex – Vanilla JavaScript
+
+Repositório: https://github.com/henrique200/desafio-tecnico-pokedex
 
 Este projeto é uma **Pokédex interativa** desenvolvida como desafio técnico para Front-End, utilizando **Vanilla JavaScript**, seguindo o layout fornecido no Figma e consumindo dados da **PokéAPI**.
 
@@ -6,33 +8,33 @@ O objetivo foi demonstrar **organização de código**, **boas práticas**, **pe
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 📋 **Listagem de Pokémon**
+- **Listagem de Pokémon**
   - Dados consumidos da PokéAPI
   - Exibição paginada com **18 Pokémon por página**
 
-- 🔍 **Busca dinâmica**
+- **Busca dinâmica**
   - Busca por nome (parcial, conforme o usuário digita)
   - Busca por ID (exemplo: `#25`)
   - Busca por tipo (exemplo: `veneno`, `fogo`, `água`)
 
-- 📄 **Paginação**
+- **Paginação**
   - Navegação entre páginas sem recarregar a página
   - Controle de estado da página atual
 
-- 📱 **Responsividade**
+- **Responsividade**
   - Layout adaptado para mobile, tablet e desktop
   - Grid responsivo conforme o Figma (até 6 colunas no desktop)
 
-- ⚡ **Performance**
+- **Performance**
   - Cache em memória utilizando `Map`
   - Debounce na busca
   - Evita reprocessamento desnecessário ao trocar apenas a página
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Vanilla JavaScript (ES Modules)**
 - **Vite** (bundler e servidor de desenvolvimento)
@@ -42,25 +44,24 @@ O objetivo foi demonstrar **organização de código**, **boas práticas**, **pe
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
-src/
-├─ api/
-│ └─ pokeApi.js # Camada de comunicação com a API
-├─ assets/
-│ └─ images/
-├─ styles/
-│ ├─ reset.css
-│ └─ main.css
-├─ main.js # Lógica principal da aplicação
-index.html
-.env.example
+- src/
+ - api/
+  - pokeApi.js # Camada de comunicação com a API
+ - assets/
+  - images/
+ - styles/
+  - reset.css
+  - main.css
+ - main.js # Lógica principal da aplicação
+- index.html
+- .env.example
 
-## ⚙️ Configuração e Execução
+## Configuração e Execução
 
 ### 1️⃣ Clonar o repositório
-- git clone <url-do-repositorio>
-- cd pokedex-vanilla
+- git clone https://github.com/henrique200/desafio-tecnico-pokedex.git
 
 ### 2️⃣ Instalar dependências
 - npm install
@@ -92,8 +93,8 @@ index.html
 
 ### Possíveis Melhorias Futuras
 - Modal com detalhes do Pokémon
-- Criar um loading com layout melhor
-- Criar pagina para Pokédex
+- Loading com layout aprimorado
+- Página dedicada para a Pokédex
 - Filtros avançados por tipo
 - Testes automatizados
 - Deploy em ambiente público
