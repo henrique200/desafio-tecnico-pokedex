@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo-svg.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PokeDex</title>
+
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <img
+          src="/src/assets/images/logo-pokedex.png"
+          alt="Pokedex"
+          class="logo"
+        />
+
+        <nav class="nav">
+          <a href="#" class="nav-link active" data-view="home">Home</a>
+          <a href="#" class="nav-link" data-view="pokedex">Pokédex</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="search-section">
+      <div class="container">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Faça uma busca pelo nome do pokémon"
+            class="search-input"
+          />
+
+          <button class="search-button" aria-label="Buscar">
+            <img
+              src="/src/assets/images/icon.png"
+              alt="Search"
+              class="icon-search"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <section class="pokemon-grid"></section>
+      <div class="pagination"></div>
+    </main>
+
+    <section class="coming-soon" hidden>
+      <div class="container coming-card">
+        <p class="coming-eyebrow">Pokédex</p>
+        <h2 class="coming-title">Página em construção</h2>
+        <p class="coming-copy">
+          Estamos preparando uma Pokédex completa para você. Enquanto isso,
+          volte para a página inicial para pesquisar pelos Pokémons.
+        </p>
+        <button class="coming-home">Voltar para Home</button>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
