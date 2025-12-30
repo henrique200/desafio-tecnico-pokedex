@@ -1,7 +1,5 @@
 # Pokédex – Vanilla JavaScript
 
-Repositório: https://github.com/henrique200/desafio-tecnico-pokedex
-
 Este projeto é uma **Pokédex interativa** desenvolvida como desafio técnico para Front-End, utilizando **Vanilla JavaScript**, seguindo o layout fornecido no Figma e consumindo dados da **PokéAPI**.
 
 O objetivo foi demonstrar **organização de código**, **boas práticas**, **performance** e **interatividade**, sem o uso de frameworks como React ou Vue.
